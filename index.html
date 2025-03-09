@@ -1,82 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HUG Token - The Token of Affection on Solana</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Header with navigation -->
     <header>
-        <nav>
-            <div class="logo">HUG</div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#how-to-buy">How to Buy</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <div class="logo">
+          <img src="./hug trans.png" width="50px" alt="HUG Logo" />
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#how-to-buy">How to Buy</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!-- Main content -->
     <main>
-        <!-- Hero section -->
-        <section id="hero">
-            <h1>Welcome to HUG: The Token of Affection on Solana</h1>
-            <p>HUG is a community-driven token designed to spread positivity and support charitable causes.</p>
-            <a href="#about" class="btn">Learn More</a>
-        </section>
+      <!-- Hero section -->
+      <section id="hero">
+        <h1 class="hero-title">Welcome to HUG: <br/> The Token of Affection on Solana</h1>
+        <p>
+          HUG is a community-driven token designed to spread positivity and
+          support charitable causes.
+        </p>
+        <a href="#about" class="btn community-btn telegram-btn" style="width: fit-content;">Learn More</a>
+      </section>
 
-        <!-- About section -->
-        <section id="about">
-            <h2>About HUG</h2>
-            <p>
-                HUG is more than just a token; it’s a movement. Built on the Solana blockchain, HUG leverages Solana’s speed and efficiency to create a seamless experience for users. Our mission is to foster a community of kindness and support, where every transaction contributes to making the world a better place. A portion of every HUG transaction is donated to charitable organizations, ensuring that your participation has a positive impact.
-            </p>
-        </section>
+      <!-- New Buy/Give HUG Section -->
+      <div class="buy-hug-section">
+        <div
+          class="relative bg-cover overflow-hidden"
+          style="background-image: url('./back2.png')"
+        >
+          <div class="mx-auto max-width-container">
+            <div class="content-wrapper">
+              <div class="left-column">
+                <h2 class="big-red">BUY $HUG</h2>
+              
+                </div>
+                <p class="or-text">OR...</p>
+                <div class="social-section">
+                  <p class="give-hug">GIVE $HUG</p>
+                  <div class="social-icons">
+                    <a target="_blank" href="https://t.me/hugs_on_sol">
+                      <img src="./telegram.svg" alt="Telegram" />
+                    </a>
+                    <a target="_blank" href="https://x.com/Hug_Solana">
+                      <img src="./twitter.svg" alt="Twitter" />
+                    </a>
+                    <!-- <a
+                      target="_blank"
+                      href="https://www.instagram.com/hug_radix/"
+                    >
+                      <img src="/assets/app/insta.svg" alt="Instagram" />
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+              <div class="right-column">
+                <p class="mission-text">
+                  We're not just aiming to be Solana's top meme coin—we're going
+                  for world domination, one HUG at a time!
+                </p>
+                <img src="./hugger.png" alt="Hugger" class="hugger-image" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <!-- How to Buy section -->
-        <section id="how-to-buy">
-            <h2>How to Buy HUG</h2>
-            <ol>
-                <li><strong>Set up a Solana wallet:</strong> Download a wallet like Phantom or Solflare and create an account.</li>
-                <li><strong>Buy SOL:</strong> Purchase SOL on an exchange like Binance, Coinbase, or FTX.</li>
-                <li><strong>Swap SOL for HUG:</strong> Connect your wallet to a decentralized exchange like Raydium, select the HUG token using its contract address: <em>HUG_CONTRACT_ADDRESS</em>, and swap your SOL for HUG.</li>
-            </ol>
-            <p><strong>Important:</strong> Always verify the contract address to avoid scams.</p>
-        </section>
+      <!-- About section -->
+      <section id="about" 
+      class="relative bg-cover overflow-hidden"
+      style="background-image: url('./backlab.png')"
+      
+      >
+        <h2 class="big-black">About HUG</h2>
+        <p class="mission-text-black">
+          HUG is more than just a token; it’s a movement. Built on the Solana
+          blockchain, HUG leverages Solana’s speed and efficiency to create a
+          seamless experience for users. Our mission is to foster a community of
+          kindness and support, where every transaction contributes to making
+          the world a better place. A portion of every HUG transaction is
+          donated to charitable organizations, ensuring that your participation
+          has a positive impact.
+        </p>
+        <img src="./hug.png" alt="Hugger" class="hugger-image" />
+      </section>
 
-        <!-- Community section -->
-        <section id="community">
-            <h2>Join the Community</h2>
-            <p>
-                Become part of the HUG family! Follow us on Twitter for the latest updates, join our Discord server to chat with other community members, and stay tuned for exciting events and giveaways.
-            </p>
-            <a href="https://twitter.com/hugtoken" target="_blank">Twitter</a>
-            <a href="https://discord.gg/hugtoken" target="_blank">Discord</a>
-        </section>
+     <!-- How to Buy section -->
+<section id="how-to-buy" >
+    <h2 class="big-black">How to Buy HUG</h2>
+    <ol class="mission-text-black2">
+      <li>
+        <strong>Get a Solana Wallet:</strong> Install Phantom or Solflare wallet
+      </li>
+      <li>
+        <strong>Fund with SOL:</strong> Buy SOL from exchanges like Binance or Coinbase and send to your wallet
+      </li>
+      <li>
+        <strong>Connect to Pump.fun:</strong> Go to
+        <a href="https://pump.fun" target="_blank" class="pump-link">pump.fun</a> and connect your wallet
+      </li>
+      <li>
+        <strong>Find $HUG:</strong> Search for HUG using our contract address:
+        <div class="contract-address">
+          <code>CA not available yet</code>
+          <button class="copy-btn" onclick="copyContract()">Copy</button>
+        </div>
+      </li>
+      <li>
+        <strong>Buy & HODL:</strong> Swap your SOL for $HUG and join the ride!
+      </li>
+    </ol>
+    <div class="note mission-text">
+      <p>🚨 Always verify the contract address before purchasing</p>
+      <p>✨ Tokens automatically list on Raydium when we reach 50M market cap!</p>
+    </div>
+  </section>
 
-        <!-- FAQ section -->
-        <section id="faq">
-            <h2>Frequently Asked Questions</h2>
-            <details>
-                <summary>What is HUG?</summary>
-                <p>HUG is a token on the Solana blockchain aimed at spreading positivity and supporting charitable causes.</p>
-            </details>
-            <details>
-                <summary>What is the total supply of HUG?</summary>
-                <p>The total supply of HUG is 1,000,000,000 tokens.</p>
-            </details>
-            <!-- Add more FAQs as needed -->
-        </section>
+     <!-- Community section -->
+<section id="community" class="community-section">
+    <h2 class="big-red">Join the HUG Community</h2>
+    <p class="mission-text-black">
+      Ready to spread some love? Join the HUG family and connect with like-minded people who believe in positivity and making a difference. Follow us on socials, hop into our chats, and stay in the loop for exclusive events, giveaways, and more!
+    </p>
+    <div class="community-links">
+      <a href="https://t.me/hugs_on_sol" target="_blank" class="community-btn telegram-btn">
+        <img src="./telegram.svg" alt="Telegram" /> Telegram
+      </a>
+      <a href="https://x.com/Hug_Solana" target="_blank" class="community-btn twitter-btn">
+        <img src="./twitter.svg" alt="Twitter" /> Twitter
+      </a>
+      <!-- Uncomment and update if Instagram is added -->
+      <!-- <a href="https://www.instagram.com/hug_radix/" target="_blank" class="community-btn instagram-btn">
+        <img src="./insta.svg" alt="Instagram" /> Instagram
+      </a> -->
+    </div>
+  
+  </section>
+  
+  <!-- FAQ section -->
+  <section id="faq" class="faq-section">
+    <h2 class="big-black">Frequently Asked Questions</h2>
+    <p class="mission-text-black">
+      Got questions? We’ve got answers! Check out the most common queries about HUG below.
+    </p>
+    <div class="faq-container">
+      <details class="faq-item">
+        <summary>What is HUG Token?</summary>
+        <p>
+          HUG is a community-driven token on the Solana blockchain, designed to spread positivity and support charitable causes. Think of it as a digital hug that makes the world a better place, one transaction at a time!
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>What is the total supply of HUG?</summary>
+        <p>
+          The total supply of HUG is 1,000,000,000 tokens. Plenty of hugs to go around!
+        </p>
+      </details>
+      <!-- <details class="faq-item">
+        <summary>How are charitable donations handled?</summary>
+        <p>
+          A portion of every HUG transaction is automatically donated to verified charitable organizations. We’re transparent about where the funds go—stay tuned for updates on our community page!
+        </p>
+      </details> -->
+      <details class="faq-item">
+        <summary>Where can I trade HUG?</summary>
+        <p>
+          You can buy HUG on <a href="https://pump.fun" target="_blank" class="pump-link">pump.fun</a> now. Once we hit a 50M market cap, HUG will automatically list on Raydium. Keep hugging and HODLing!
+        </p>
+      </details>
+      <details class="faq-item">
+        <summary>How can I get involved?</summary>
+        <p>
+          Join our Telegram or Twitter communities, participate in events, or simply spread the word about HUG. Every little bit helps us grow the movement!
+        </p>
+      </details>
+    </div>
+  </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2023 HUG Token. All rights reserved.</p>
-        <p>Disclaimer: Cryptocurrency investments are subject to market risks. Please conduct your own research before investing.</p>
+      <p>&copy; 2025 HUG Token. All rights reserved.</p>
+      <p>
+        Disclaimer: Cryptocurrency investments are subject to market risks.
+        Please conduct your own research before investing.
+      </p>
     </footer>
-</body>
+  </body>
 </html>
